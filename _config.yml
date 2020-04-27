@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MPBBB (MurmurPanda's Bug Bounty Blog)
+title: P4nda's Bug Bounty Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Bug Bounty Journal - Highlights, lowlights and a lot of learning.
 baseurl: "" # the subpath of your site, e.g. /blog
