@@ -2,7 +2,7 @@
 layout: post
 title:  "So You Wanna Hack"
 date:   2020-08-15 15:50:23 -0700
-categories: bugbounty hack beginner noob starter
+categories: bugbounty
 ---
 
 Over in the Hacker101 Discord, a half dozen people come in every day asking "how do I hack?". The mods have done a great job helping answer this question with pinned messages, a `!beginner` macro, and a welcoming atmosphere. This post is for those who want to get into ethical hacking / bug bounty, but have no idea where to start and need more technical background before they can start grokking the introductory hacking resources.
