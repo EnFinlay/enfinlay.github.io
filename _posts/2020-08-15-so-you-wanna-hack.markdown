@@ -30,7 +30,7 @@ Focus on HTML and Javascript and how they work together to create the dynamic ex
 
 ## Step 3: Security Vulnerabilities
 
-Congratulations! You now have enough background knowledge to begin your security learning. The best first resource I can recommend is [hacker101.com](https://www.hacker101.com/) and the accompanying videos. The videos are modern enough to be relevant and created by great hackers. Notice that I'm not giving a big list of resources because that choice doesn't help right now. Watch the videos. Google and understand the things that confuse you. Come to Hacker101 Discord and ask questions. (Aside: asking "I don't understand what Cody said about the HTTPOnly flag at this timestamp of this video" is 10x better than "This is confusing, someone explain it to me").
+Congratulations! You now have enough background knowledge to begin your security learning. The best first resource I can recommend is [hacker101.com](https://www.hacker101.com/) and the accompanying videos. The videos are modern enough to be relevant and created by great hackers. Notice that I'm not giving a big list of resources because that choice doesn't help right now. Watch the videos. Google and understand the things that confuse you. Come to Hacker101 Discord and ask questions. (Aside: asking "I don't understand what was said about the HTTPOnly flag at this timestamp of this video" is 10x better than "This is confusing, someone explain it to me").
 
 ## Step 4: Everything else
 
