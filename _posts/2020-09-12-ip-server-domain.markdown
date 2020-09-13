@@ -38,7 +38,7 @@ An HTTP server is a process that responds to HTTP requests and is usually listen
 
 ## Subdomain Takeover
 
-Subdomain takeover is when an attacker is able perform an action so that an HTTP request to `${vulernablesubdomain}.victim.com` goes to an attacker controlled server.
+Subdomain takeover is when an attacker is able perform an action so that an HTTP request to `${vulnerableSubdomain}.victim.com` goes to an attacker controlled server.
 
 This usually happens in two ways:
 - bad `A` records
@@ -57,7 +57,7 @@ This is when the domain owner has set the `CNAME` record to point to a 3rd party
 Now, let's figure out whether or not you've found an STO. For this I'm going to assume that you're doing subdomain recon and you've found some odd behaviour that you want to investigate.
 
 1. Look at the DNS records for the subdomain. If it is using an `A` record and you are connecting to an HTTP server then you do not have subdomain takeover. (Actually that's not true because there's a chance that you're making it to a multihosting server that is giving a default response for hosts it doesn't recognize, and then you could have STO, but this is relatively rare)
-2. If it's an `A` record and you are not connecting to an HTTP server, figure out what you can about the IP. There's a small chance that the IP is in the range of a hosting provider like AWS, and you can get control of the IP. This is a long shot because most hosting providers do not allow you to request specific IPs. Keep in mind the private IP ranges [RFC 1918](https://tools.ietf.org/html/rfc1918) since these IPs will be unreachable and do not indicate an STO vulnerability.
+2. If it's an `A` record and you are not connecting to an HTTP server, figure out what you can about the IP. There's a small chance that the IP is in the range of a hosting provider like AWS, and you can get control of the IP. This is a long shot because most hosting providers do not allow you to request specific IPs. Keep in mind the private IP ranges [RFC 1918](https://tools.ietf.org/html/rfc1918) since these IPs will be unreachable and do not indicate an STO vulnerability. I want to be clear, this is exceptionally unlikely to successfully exploit and there's no clear methodology like there is for `CNAME` records.
 3. If the domain is using a `CNAME` record, check whether it's pointed to an [exploitable 3rd party](https://github.com/edoverflow/can-i-take-over-xyz) and is setup correctly. If the 3rd party is not exploitable or things are setup correctly, you do not have an STO.
 
 ## Conclusion
