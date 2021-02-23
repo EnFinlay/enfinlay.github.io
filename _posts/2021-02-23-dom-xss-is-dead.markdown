@@ -5,8 +5,6 @@ date:   2021-02-23 12:00:00 -0700
 categories: xss dom burp
 ---
 
-# DOM XSS is Dead*, Long Live DOM XSS
-
 *With the notable exception of `postMessage`
 
 ## Intro
