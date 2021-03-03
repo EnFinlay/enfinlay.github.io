@@ -29,6 +29,8 @@ DOM XSS requires client side javascript to have logic that takes a vulnerable so
 
 Of these 3 options, code scanners are the most viable option. There are many scanners out there, but I didn't feel like paying the subscription fees to try them all out. Some were ludicrously expensive for my needs (up to $999/year). For that reason the only scanner I tested was Burp Suite Pro (the license I already pay for).
 
+Update: There are tools that assist in manual searches for DOM XSS like [@filedescriptor's](https://twitter.com/filedescriptor) [untrusted-types](https://github.com/filedescriptor/untrusted-types).
+
 ## Sources
 
 A Source is any property accessible via Javascript that *could* be set-able by an attacker. Sources aren't as simple as we want them to be and I couldn't find any consistent language for the different types. For this post I've separated them into "True Sources", "Sunk Sources", and "Encoded Sources".
